@@ -1,0 +1,13 @@
+[MediaParser]
+enable = true
+video_api_url = "https://www.hhlqilongzhu.cn/api/sp_jx/sp.php?url="
+api_url = "https://api.dudunas.top/api/qushuiyin/?AppSecret=123&text="
+# 接口1：https://api.qster.top/API/v2/douyin/?qskey=fldfBNpkPva7n5Ss&url=
+# 接口2：https://api.qster.top/API/v2/detwater/?qskey=fldfBNpkPva7n5Ss&url=
+# 龙珠接口：https://www.hhlqilongzhu.cn/api/sp_jx/sp.php?url=
+# 格式不一致，DP接口：https://api.dudunas.top/api/qushuiyin/?AppSecret=123&text=
+# dyyy接口：https://api.qsy.ink/api/douyin?key=DYYY&url=
+timeout = 30  # 请求超时时间(秒)
+api_timeout = 5 # API解析专用超时时间(秒)，建议设置短一些
+max_retries = 1  # 最大重试次数
+max_video_size = 30  # MB
